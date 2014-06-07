@@ -13,6 +13,7 @@ PIRSensor	KEYWORD1
 #######################################
 
 hasMovement	KEYWORD2
+triggered	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
