@@ -1,0 +1,2 @@
+PIRSensor	KEYWORD1
+hasMovement	KEYWORD2
