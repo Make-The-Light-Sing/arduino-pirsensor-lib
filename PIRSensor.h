@@ -18,12 +18,14 @@
 class PIRSensor
 {
 public:
-    PIRSensor(byte pin, unsigned int timeout = 50000);
+    PIRSensor(byte pin, unsigned int timeout = 3000);
     boolean hasMovement();
+    boolean triggered();
     virtual ~PIRSensor();
 private:
     byte _pin;
     unsigned int _timeout;
+    unsigned long _triggered;
 };
 
 #endif /* PIRSENSOR_H_ */
